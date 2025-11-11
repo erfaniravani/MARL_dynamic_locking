@@ -1,0 +1,16 @@
+latency_dim: 3
+victim_acc_dim: 8
+action_dim: 64
+step_dim: 64
+window_size: 64
+action_embed_dim: 32 #16
+step_embed_dim: 4
+hidden_dim: 256
+hidden_dim_d: 256
+window_size_s: 2
+output_dim: -1
+num_layers: 1
+set_embed_dim: 1 #default = 4, 1
+way_embed_dim: 16 #default = 8, 16
+lock_embed_dim: 8 #default = 8
+new_arc: true
