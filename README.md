@@ -63,19 +63,4 @@ The framework builds upon **[AutoCAT](https://github.com/example/AutoCAT)** and 
   - `train_macta_defender.py` — trains the MARL-based dynamic locking defender.  
   - `train_student.py` — performs knowledge distillation from defender to student model.
 
----
 
-## ⚙️ Dependencies
-- Python 3.9+  
-- PyTorch  
-- Gymnasium  
-- NumPy, SciPy  
-
-(See environment YAML or requirements file for details.)
-
----
-
-## 🚀 Usage
-Example (training MARL defender):
-```bash
-python AutoCAT/src/rlmeta/macta/train/train_macta_defender.py --config AutoCAT/src/rlmeta/macta/config/macta.yaml
